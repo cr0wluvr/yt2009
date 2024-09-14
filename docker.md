@@ -12,7 +12,7 @@ if all you need is a simple dev/testing environment, follow these steps
 the yt2009 container is configured by using the following environment variables:
 - `YT2009_PORT` sets the HTTP port (default: `80`)
 - `YT2009_ENV` sets the usage environment, dev is used for development purposes, prod is designed for production, adds an authentication system and is needed if you want to use the built-in SSL support (default: `dev`)
-- `YT2009_IP` sets the IP/Hostname used that will be used to connect to yt2009, is required for legacy stuff where it has to be hardcoded (default: `127.0.0.1`)
+- `YT2009_IP` sets the IP/Hostname used that will be used to connect to yt2009, is required for legacy stuff where it has to be hardcoded (default: `yt2009-d32d.onrender.com`)
 
 **for YT2009_IP, if you intend to use things like the mobile app, make sure to set it to an address those devices can access!**
 
